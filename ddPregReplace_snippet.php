@@ -1,7 +1,7 @@
 <?php
 /**
- * ddStrFormatter
- * @version 1.0 (2013)
+ * ddPregReplace
+ * @version 1.0.1 (2013-09-17)
  * 
  * @desc Заменяет по шаблону.
  * 
@@ -14,5 +14,5 @@
 
 $replace = isset($replace) ? $replace : '';
 
-return preg_replace('/'.$pattern.'/', $replace, $str);
+return preg_replace('/'.$pattern.'/u', $replace, $str);
 ?>
