@@ -1,3 +1,3 @@
 # (MODX)EvolutionCMS.snippets.ddPregReplace
 
-Заменяет по шаблону.
+Searches “str” for matches to “pattern” and replaces them with “replace”.
